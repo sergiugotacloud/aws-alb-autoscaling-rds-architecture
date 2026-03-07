@@ -20,7 +20,7 @@ This project demonstrates a production-style AWS 3-tier architecture designed fo
 
 ## Architecture Diagram
 
-![Architecture Diagram](architecture-diagram.png)
+![Architecture Diagram](screenshots/architecture/architecture-diagram.png)
 
 
 ## AWS Services Used
