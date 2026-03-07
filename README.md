@@ -14,6 +14,15 @@ Auto Scaling EC2 (private subnets)
 RDS MySQL Database
 ```
 
+# AWS Highly Available Web Architecture
+
+This project demonstrates a production-style AWS 3-tier architecture designed for high availability, scalability, and secure networking.
+
+## Architecture Diagram
+
+![Architecture Diagram](architecture/architecture-diagram.png)
+
+
 ## AWS Services Used
 
 - VPC
