@@ -238,7 +238,7 @@ The issue was that the RDS security group was missing an inbound rule entirely. 
 
 ## What I Learned
 
-This was the most complex project I've built on AWS, and the one that most closely mirrors real production infrastructure. Several things fundamentally changed how I think about cloud architecture:
+This was a complex project I've built on AWS, and the one that closely mirrors real production infrastructure. Several things fundamentally changed how I think about cloud architecture:
 
 **High availability has to be designed in from the start — it can't be bolted on.** Spreading subnets, instances, and databases across multiple availability zones isn't just a checkbox — it requires deliberate decisions about CIDR ranges, routing, and load balancer configuration that touch every layer of the stack. Trying to retrofit HA into a single-AZ design would mean rebuilding most of it.
 
